@@ -48,6 +48,7 @@ int sum(const IntVect &r)
 
 int get_cell(const Field &f, const Coord &c)
 {
+    std::cout<<"It`s get_cell"<<endl;
     return f[c.first][c.second];
 }
 
